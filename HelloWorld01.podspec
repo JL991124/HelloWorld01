@@ -21,11 +21,11 @@ Pod::Spec.new do |spec|
   spec.swift_version             = "5.5.2"
   spec.watchos.deployment_target = "2.0"
   spec.description  = "description"
-  spec.homepage     = "http://github.com/JL991124/HelloWorld01"
+  spec.homepage     = "https://github.com/JL991124/HelloWorld01"
   spec.license      = "MIT"
   spec.author       = { "jay.lam" => "jay.lam@bbpos.com" }
   spec.platform     = :ios, "11.0"
-  spec.source       = { :git => "http://github.com/JL991124/HelloWorld01.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/JL991124/HelloWorld01.git", :tag => "#{spec.version}" }
   spec.source_files  = "HelloWorld01", "HelloWorld01/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
   # spec.framework  = "SomeFramework"
